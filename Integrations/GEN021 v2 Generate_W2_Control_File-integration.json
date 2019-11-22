@@ -1,0 +1,16 @@
+[
+    {
+        "ID": "583807a286465",
+        "Name": "GEN021 v2 Generate_W2_Control_File",
+        "Type": "FILE",
+        "LIM_id": "83ef69d1-2c5e-11e5-ad20-22000a7a05f5",
+        "Editable": true,
+        "LIM_name": "Portsmouth",
+        "Category": "CHD W2 Memo",
+        "data_type": "integration",
+        "allow_offline": 0,
+        "Output_template": "{\"lookup_validation\":\"0\",\"destination\":\"/{ENV_PATH}{OUTPUT_FOLDER_COUNCIL_TAX}\\\\{reference}.txt\",\"mode\":\"Overwrite\",\"content\":\"{reference}.PDF,{W2_Ref_Num},{W2_Doc_Type}\"}",
+        "log_only_on_error": 0,
+        "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"daniel.gregory@portsmouthcc.gov.uk\"}"
+    }
+]

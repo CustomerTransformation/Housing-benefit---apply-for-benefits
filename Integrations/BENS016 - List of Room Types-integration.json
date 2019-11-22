@@ -1,0 +1,16 @@
+[
+    {
+        "ID": "5811e6343aa88",
+        "Name": "BENS016 - List of Room Types",
+        "Type": "DATABASE",
+        "LIM_id": "83ef69d1-2c5e-11e5-ad20-22000a7a05f5",
+        "Editable": true,
+        "LIM_name": "Portsmouth",
+        "Category": "BENS_RBV",
+        "data_type": "lookup",
+        "allow_offline": 0,
+        "Output_template": "{\"lookup_validation\":\"0\",\"systemID\":\"5751960a94361\",\"systemName\":\"CustomerAccount\",\"query\":\"select a.Sequ, a.room as display, a.rname as name\\nfrom\\n(select '11' as Sequ, 'Living rooms' as room, 'livingroom' as rname union\\nselect '12' as Sequ, 'Bedrooms' as room, 'bedroom' as rname union\\nselect '13' as Sequ, 'Bedsitting rooms' as room, 'bedsit' as rname union\\nselect '14' as Sequ, 'Bathrooms or shower rooms' as room, 'bathroom' as rname union\\nselect '15' as Sequ, 'Toilets' as room, 'toilet' as rname union\\nselect '16' as Sequ, 'Kitchens' as room, 'kitchen' as rname union\\nselect '17' as Sequ, 'Other rooms' as room, 'other' as rname) a\\nwhere CHARINDEX(a.rname,{alreadySelected}) = 0\\nor {currSelected} = a.rname\",\"results_page_columns_db\":\"\",\"escapeTokens\":\"yes\"}",
+        "log_only_on_error": 0,
+        "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"daniel.gregory@portsmouthcc.gov.uk\"}"
+    }
+]

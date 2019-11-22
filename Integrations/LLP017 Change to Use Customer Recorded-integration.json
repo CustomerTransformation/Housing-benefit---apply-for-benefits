@@ -1,0 +1,16 @@
+[
+    {
+        "ID": "58cac46f269a2",
+        "Name": "LLP017 Change to Use Customer Recorded",
+        "Type": "DATABASE",
+        "LIM_id": "3f07ecf4-0dfa-11e2-b0b9-12313b03ed59",
+        "Editable": true,
+        "LIM_name": "LIM14",
+        "Category": "z Global",
+        "data_type": "lookup",
+        "allow_offline": 0,
+        "Output_template": "{\"lookup_validation\":\"0\",\"secure_fields_db_database\":\"\",\"results_page_columns_db\":\"\",\"escapeTokens\":\"yes\",\"systemName\":\"Firmstep Solutions Read\",\"query\":\"Select *\\nFrom\\n(select\\n\\t{flat} as flat_out,\\n\\t{house} as house_out,\\n\\t{street} as street_out,\\n\\t{town} as town_out, \\n\\tIF({country} IS NULL or {country} = '' or {country} = 'United Kingdom', {postcode}, '') as postcode_out5,\\n\\tIF({country} IS NOT NULL and {country} != '' and {country} != 'United Kingdom', {postcode}, '') as zIPPostcode,\\n\\t{country} as country_out,\\n\\t{uprn} as uprn_out,\\n\\t{lng} as lng_out,\\n\\t{lat} as lat_out,\\n\\t1 as existSelected,\\n\\t1 as existingCustomer,\\n\\t'ProcAi' as haveRun\\nUnion select\\n\\t'' as flat_out,\\n\\t'' as house_out,\\n\\t'' as street_out,\\n\\t'' as town_out, \\n\\t'' as postcode_out5,\\n\\t'' as zIPPostcode,\\n\\t'' as country_out,\\n\\t'' as uprn_out,\\n\\t'' as lng_out,\\n\\t'' as lat_out,\\n\\t'' as existSelected,\\n\\t'' as existingCustomer,\\n\\t'ProcAi' as haveRun) as Comb\\nWhere\\n\\tIF({existingCustomer} = 1 or ({subParam} like '%dA%' and {haveRun} like '%Ae%'), 1, '') = Comb.existSelected\",\"systemID\":\"59dc224eb4f63\"}",
+        "log_only_on_error": 0,
+        "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"daniel.gregory@portmouthcc.gov.uk\"}"
+    }
+]

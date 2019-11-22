@@ -1,0 +1,16 @@
+[
+    {
+        "ID": "5a942cd406631",
+        "Name": "LLP022 Clear Address",
+        "Type": "DATABASE",
+        "LIM_id": "3f07ecf4-0dfa-11e2-b0b9-12313b03ed59",
+        "Editable": true,
+        "LIM_name": "LIM14",
+        "Category": "z Global",
+        "data_type": "lookup",
+        "allow_offline": 0,
+        "Output_template": "{\"lookup_validation\":\"0\",\"secure_fields_db_database\":\"\",\"results_page_columns_db\":\"\",\"escapeTokens\":\"yes\",\"systemName\":\"Firmstep Solutions Read\",\"query\":\"select\\n\\t'' as uprn_selected,\\n\\t{postcode_search_after} as postcode_search,\\n\\tIF({uprn_selected}='Entered',1,'') as Address_Found,\\n\\t'' as flat_out,\\n\\t'' as house_out,\\n\\t'' as street_out,\\n\\t'' as town_out, \\n\\t'' as postcode_out5,\\n\\t'' as zIPPostcode,\\n\\t'' as country_out\",\"systemID\":\"59dc224eb4f63\"}",
+        "log_only_on_error": 0,
+        "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"daniel.gregory@portmouthcc.gov.uk\"}"
+    }
+]
