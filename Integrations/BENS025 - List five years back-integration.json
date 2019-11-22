@@ -9,7 +9,7 @@
         "Category": "BENS_RBV",
         "data_type": "lookup",
         "allow_offline": 0,
-        "Output_template": "{\"lookup_validation\":\"0\",\"systemID\":\"56f286c867311\",\"systemName\":\"CodeTables\",\"query\":\"select year(GETDATE()) as display, year(GETDATE()) as name\\nunion select year(GETDATE())-1 as display, year(GETDATE())-1 as name\\nunion select year(GETDATE())-2 as display, year(GETDATE())-2 as name\\nunion select year(GETDATE())-3 as display, year(GETDATE())-3 as name\\nunion select year(GETDATE())-4 as display, year(GETDATE())-4 as name\\nunion select year(GETDATE())-5 as display, year(GETDATE())-5 as name\",\"results_page_columns_db\":\"\",\"escapeTokens\":\"yes\"}",
+        "Output_template": "{\"lookup_validation\":\"0\",\"systemID\":\"5775256573991\",\"systemName\":\"CodeTables\",\"query\":\"select year(GETDATE()) as display, year(GETDATE()) as name\\nunion select year(GETDATE())-1 as display, year(GETDATE())-1 as name\\nunion select year(GETDATE())-2 as display, year(GETDATE())-2 as name\\nunion select year(GETDATE())-3 as display, year(GETDATE())-3 as name\\nunion select year(GETDATE())-4 as display, year(GETDATE())-4 as name\\nunion select year(GETDATE())-5 as display, year(GETDATE())-5 as name\",\"results_page_columns_db\":\"\",\"escapeTokens\":\"yes\"}",
         "log_only_on_error": 0,
         "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"daniel.gregory@portmouthcc.gov.uk\"}"
     }

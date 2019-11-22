@@ -9,8 +9,8 @@
         "Category": "z Global",
         "data_type": "integration-lookup",
         "allow_offline": 0,
-        "Output_template": "{\"lookup_validation\":\"0\",\"profile_action\":\"get\",\"ucrn\":\"{UCRN}\"}",
-        "log_only_on_error": 0,
-        "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"daniel.gregory@portsmouthcc.gov.uk\"}"
+        "Output_template": "{\"lookup_validation\":\"0\",\"profile_action\":\"get\",\"ucrn\":\"{UCRN}\",\"secure_fields_db_profile\":\"\"}",
+        "log_only_on_error": 1,
+        "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"isbat1@portsmouthcc.gov.uk\"}"
     }
 ]

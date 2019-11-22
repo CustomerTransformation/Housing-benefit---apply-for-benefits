@@ -9,8 +9,8 @@
         "Category": "z Global",
         "data_type": "lookup",
         "allow_offline": 0,
-        "Output_template": "{\"lookup_validation\":\"0\",\"results_page_columns_db\":\"\",\"escapeTokens\":\"yes\",\"systemName\":\"Firmstep Solutions Read\",\"query\":\"select\\n\\tsao as flat_out,\\n\\tpao as house_out,\\n\\tstreet_name as street_out,\\n\\ttown_name as town_out, \\n\\tpostcode as postcode_out5,\\n\\tuprn as uprn_out,\\n\\tlng as lng_out,\\n\\tlat as lat_out,\\n\\t{Choose_Address} as uprn_selected\\nFROM \\n\\tllpgcache\\nWHERE \\n\\tuprn = {Choose_Address}\",\"systemID\":\"59dc224eb4f63\"}",
-        "log_only_on_error": 0,
-        "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"daniel.gregory@portmouthcc.gov.uk\"}"
+        "Output_template": "{\"systemID\":\"59a4f21090a7f\",\"systemName\":\"Firmstep Solutions Read\",\"lookup_validation\":\"0\",\"results_page_columns_db\":\"\",\"secure_fields_db_database\":\"\",\"escapeTokens\":\"yes\",\"query\":\"select\\n\\tsao as flat_out,\\n\\tpao as house_out,\\n\\tstreet_name as street_out,\\n\\ttown_name as town_out, \\n\\tpostcode as postcode_out5,\\n\\tuprn as uprn_out,\\n\\tlng as lng_out,\\n\\tlat as lat_out,\\n\\t{Choose_Address} as uprn_selected\\nFROM \\n\\tllpgcache\\nWHERE \\n\\tuprn = {Choose_Address}\"}",
+        "log_only_on_error": 1,
+        "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"isbat1@portmouthcc.gov.uk\"}"
     }
 ]

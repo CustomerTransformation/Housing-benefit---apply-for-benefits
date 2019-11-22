@@ -9,8 +9,8 @@
         "Category": "z Global",
         "data_type": "lookup",
         "allow_offline": 0,
-        "Output_template": "{\"lookup_validation\":\"0\",\"method\":\"GET\",\"url\":\"https://{host}/apibroker/?key={apibrokerKey}&pass={apibrokerPass}&api=getCiviVars&app_name=AchieveService&var=titles\",\"show_headers\":\"no\",\"responseType\":\"JSON\",\"strip_namespaces\":\"1\",\"path_to_values\":\"RepeatableNode\",\"fields\":\"{\\n\\n\\\"name\\\":\\\"name\\\",\\n\\n\\\"label\\\":\\\"display\\\"\\n\\n}\",\"xslt_stylesheet\":\"\",\"results_page_columns\":\"\",\"secure_fields_db_http\":\"\"}",
-        "log_only_on_error": 0,
+        "Output_template": "{\"method\":\"GET\",\"url\":\"https://{host}/apibroker/?key={apibrokerKey}&pass={apibrokerPass}&api=getCiviVars&app_name=AchieveService&var=titles\",\"show_headers\":\"no\",\"responseType\":\"JSON\",\"strip_namespaces\":\"1\",\"path_to_values\":\"RepeatableNode\",\"fields\":\"{\\n\\n\\\"name\\\":\\\"name\\\",\\n\\n\\\"label\\\":\\\"display\\\"\\n\\n}\",\"xslt_stylesheet\":\"\",\"results_page_columns\":\"\",\"secure_fields_db_http\":\"\"}",
+        "log_only_on_error": 1,
         "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"daniel.gregory@portsmouthcc.gov.uk\"}"
     }
 ]

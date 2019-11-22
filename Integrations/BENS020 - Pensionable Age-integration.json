@@ -9,7 +9,7 @@
         "Category": "BENS_RBV",
         "data_type": "lookup",
         "allow_offline": 0,
-        "Output_template": "{\"lookup_validation\":\"0\",\"systemID\":\"56f286c867311\",\"systemName\":\"CodeTables\",\"query\":\"EXEC ofPensionableAge\\t@DoB={ClamantDoB},\\n\\t\\t\\t\\t\\t\\t@forDate={effectiveDate}\",\"results_page_columns_db\":\"\",\"escapeTokens\":\"yes\"}",
+        "Output_template": "{\"lookup_validation\":\"0\",\"systemID\":\"5775256573991\",\"systemName\":\"CodeTables\",\"query\":\"EXEC ofPensionableAge\\t@DoB={ClamantDoB},\\n\\t\\t\\t\\t\\t\\t@forDate={effectiveDate}\",\"results_page_columns_db\":\"\",\"escapeTokens\":\"yes\"}",
         "log_only_on_error": 0,
         "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"daniel.gregory@portsmouthcc.gov.uk\"}"
     }

@@ -9,8 +9,8 @@
         "Category": "BENS_RBV",
         "data_type": "lookup",
         "allow_offline": 0,
-        "Output_template": "{\"lookup_validation\":\"0\",\"systemID\":\"5751960a94361\",\"systemName\":\"CustomerAccount\",\"query\":\"select a.Sequ, a.room as display, a.rname as name\\nfrom\\n(select '11' as Sequ, 'Living rooms' as room, 'livingroom' as rname union\\nselect '12' as Sequ, 'Bedrooms' as room, 'bedroom' as rname union\\nselect '13' as Sequ, 'Bedsitting rooms' as room, 'bedsit' as rname union\\nselect '14' as Sequ, 'Bathrooms or shower rooms' as room, 'bathroom' as rname union\\nselect '15' as Sequ, 'Toilets' as room, 'toilet' as rname union\\nselect '16' as Sequ, 'Kitchens' as room, 'kitchen' as rname union\\nselect '17' as Sequ, 'Other rooms' as room, 'other' as rname) a\\nwhere CHARINDEX(a.rname,{alreadySelected}) = 0\\nor {currSelected} = a.rname\",\"results_page_columns_db\":\"\",\"escapeTokens\":\"yes\"}",
+        "Output_template": "{\"lookup_validation\":\"0\",\"systemID\":\"5774fa2c7f695\",\"systemName\":\"CustomerAccount\",\"query\":\"select a.Sequ, a.room as display, a.rname as name\\nfrom\\n(select '11' as Sequ, 'Living rooms' as room, 'livingroom' as rname union\\nselect '12' as Sequ, 'Bedrooms' as room, 'bedroom' as rname union\\nselect '13' as Sequ, 'Bedsitting rooms' as room, 'bedsit' as rname union\\nselect '14' as Sequ, 'Bathrooms or shower rooms' as room, 'bathroom' as rname union\\nselect '15' as Sequ, 'Toilets' as room, 'toilet' as rname union\\nselect '16' as Sequ, 'Kitchens' as room, 'kitchen' as rname union\\nselect '17' as Sequ, 'Other rooms' as room, 'other' as rname) a\\nwhere CHARINDEX(a.rname,{alreadySelected}) = 0\\nor {currSelected} = a.rname\",\"results_page_columns_db\":\"\",\"secure_fields_db_database\":\"\",\"escapeTokens\":\"yes\"}",
         "log_only_on_error": 0,
-        "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"daniel.gregory@portsmouthcc.gov.uk\"}"
+        "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"isbat1@portsmouthcc.gov.uk\"}"
     }
 ]
